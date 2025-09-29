@@ -48,13 +48,22 @@ $libros = [
             <?php foreach ($libros as $libro) : ?>
                 <div class="book-item">
                     <div class="lomo"></div>
-                    <div class="D3 D3-top"></div>
+                    <div class="D3 D3-top">
+                        <?php for ($i = 0; $i < 10; $i++): ?>
+                            <hr>
+                        <?php endfor; ?>
+                    </div>
                     <div class="portrait" style="background-image: url('<?= $libro->getPortada(); ?>')" alt="Portada del libro">
                         <div class="book-info">
 
                             <p><?= $libro->resumen(); ?></p>
                         </div>
-                        <div class="D3 D3-right"></div>
+
+                    </div>
+                    <div class="D3 D3-right">
+                        <?php for ($i = 0; $i < 5; $i++): ?>
+                            <hr>
+                        <?php endfor; ?>
                     </div>
                 </div>
             <?php endforeach; ?>
