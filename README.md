@@ -57,9 +57,9 @@ Hereda de [`Biblioteca\Libro`](Libro.php).
 - Opcional: Xdebug para depuración (configuración incluida en `.vscode/launch.json`).
 
 ## Requerimientos de Hardware
-
+### Requerimientos minimos
 - Procesador: Cualquier CPU moderna (Intel/AMD, ARM).
-- Memoria RAM: Mínimo 512 MB (recomendado 1 GB o más).
+- Memoria RAM: 512 MB
 - Espacio en disco: Al menos 50 MB libres para el servidor y archivos del proyecto.
 - Resolución de pantalla: 1024x768 o superior para una mejor visualización.
 
