@@ -82,7 +82,8 @@ Hereda de [`Biblioteca\Libro`](Libro.php).
 4. ¡Listo! Verás el listado de libros con sus portadas y resúmenes.
 
 ---
-
+**GitHub:**  
+https://github.com/andrupax94/biblioteca
 **Autor:**  
 Andres Eduardo Palencia Rojas
 2025
