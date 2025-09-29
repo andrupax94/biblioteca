@@ -1,0 +1,133 @@
+:root {
+    --font1: 'Playfair Display', serif;
+    /* Clásica, literaria, ideal para novelas */
+    --font2: 'Merriweather', serif;
+    /* Muy legible, con toque serio */
+    --font3: 'Libre Baskerville', serif;
+    /* Inspirada en libros impresos */
+    --font4: 'Lora', serif;
+    /* Moderna con raíces clásicas */
+    --font5: 'Cormorant Garamond', serif;
+    /* Sofisticada, perfecta para poesía o ficción histórica */
+    --font6: 'Cinzel', serif;
+    /* Con aire romano, ideal para títulos épicos */
+    --font7: 'EB Garamond', serif;
+    /* Muy usada en ediciones académicas y clásicas */
+}
+
+
+body, html {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+body {
+    background-size: 20%;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    box-shadow: inset 0 0 41px rgb(69 69 69);
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/933/724/original/books-seamless-pattern-hand-drawn-doodle-style-minimalism-monochrome-sketch-wallpaper-textile-wrapping-paper-background-reading-education-bookstore-science-vector.jpg");
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    box-shadow: 1px 1px 5px -2px black;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+.list-title {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.list-title h1 {
+    font-family: var(--font6);
+}
+
+.list-title i {
+    background-image: url(https://tse2.mm.bing.net/th/id/OIP.D2QvXFF3VRUBP12dNgPPuAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3);
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    margin-right: 14px;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 80%;
+    overflow-y: auto;
+}
+
+.book-item {
+
+    width: 200px;
+    height: 280px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.lomo {}
+
+.D3 {}
+
+.D3-top {}
+
+.portrait {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.book-info {
+    background-color: rgba(0, 0, 0, 0.44);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.1s linear;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.book-info p {
+    color: white;
+    font-family: var(--font2);
+    font-size: 14px;
+    text-align: justify;
+    font-weight: bold;
+    margin: auto 0;
+    text-align: center;
+}
+
+.portrait:hover .book-info {
+    opacity: 1;
+
+}
+
+.D3-right {}
