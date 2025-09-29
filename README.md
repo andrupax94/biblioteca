@@ -63,7 +63,7 @@ Hereda de [`Biblioteca\Libro`](Libro.php).
 - Espacio en disco: Al menos 50 MB libres para el servidor y archivos del proyecto.
 - Resolución de pantalla: 1024x768 o superior para una mejor visualización.
 
-### Requerimientos recomendados (¡broma!)
+### Requerimientos recomendados
 -  Procesador: AMD RYZEN 9 9950XT 7ghz 32 Cores Platinum Edition
 - Tarjeta gráfica: NVIDIA RTX 5090 TI Super Black Edition.
 - 128 GB de RAM DDR7.
